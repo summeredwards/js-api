@@ -48,6 +48,8 @@ function displayWeather(json) {
 
 
 function codeToImage(weathercode, daytime) {
+	// imageInfo[0] --> image file location
+	// imageInfo[1] --> image alt text
 	let imageInfo = ['',''];
 
 	if (weathercode == 0){ // clear sky
